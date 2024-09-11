@@ -20,3 +20,14 @@ print("Words without punctuation:", clean_words)
 word_count = len(clean_words)
 print("Number of words in the text: ", word_count)
 
+# 5. Convert the text to title case (title() function)Nastia-Shapoval(student2)
+text_title = text.title()  
+print("\nText in title case:\n", text_title)
+
+# 6. Count the number of occurrences of the word 'is'Nastia-Shapoval(student2)
+count_is = lower_text.count(' is ')  
+print("Number of occurrences of the word 'is':", count_is)
+
+# 7. Check if the string starts with 'Scientists'Nastia-Shapoval(student2)
+starts_with_scientists = text.startswith('Scientists')
+print("Does the text start with 'Scientists'? ", starts_with_scientists)
