@@ -31,3 +31,15 @@ print("Number of occurrences of the word 'is':", count_is)
 # 7. Check if the string starts with 'Scientists'Nastia-Shapoval(student2)
 starts_with_scientists = text.startswith('Scientists')
 print("Does the text start with 'Scientists'? ", starts_with_scientists)
+
+# 8. Counting the number of characters that are spaces Yana Ponomarova (student3)
+space_count = text.count(" ")
+print("Number of spaces:", space_count)
+
+# 9. Converting the first letter of each word to uppercase Yana Ponomarova (student3)
+title_text = text.title()
+print("Text with each word capitalized:", title_text)
+
+# 10. Replacing all spaces with hyphens Yana Ponomarova (student3)
+hyphenated_text = text.replace(" ", "-")
+print("Text with hyphens instead of spaces:", hyphenated_text)
