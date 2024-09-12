@@ -43,3 +43,15 @@ print("Text with each word capitalized:", title_text)
 # 10. Replacing all spaces with hyphens Yana Ponomarova (student3)
 hyphenated_text = text.replace(" ", "-")
 print("Text with hyphens instead of spaces:", hyphenated_text)
+
+# 11. Reverse the entire string Bielikov Vladyslav (student4)
+reversed_text = text[::-1]
+print("Reversed text:", reversed_text)
+
+# 12. Check if the string ends with 'changes.' Bielikov Vladyslav (student4)
+ends_with_changes = text.endswith('changes.')
+print("Does the text end with 'changes.'? ", ends_with_changes)
+
+# 13. Find the position of the word 'cosmic' in the text Bielikov Vladyslav (student4)
+position_cosmic = text.find('cosmic')
+print("Position of the word 'cosmic':", position_cosmic)
