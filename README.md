@@ -38,11 +38,10 @@ Feel free to explore the code in this repository. Each project includes comments
 
 ## Contact Information
 
-Contact Information
-If you have any questions or suggestions, please feel free to reach out:
+- **Email**: [natan.nedaikhlib@gmail.com]
+- **GitHub Profile**: [github.com/NatanNed]
 
-Email: natan.nedaikhlib@gmail.com
-GitHub Profile: github.com/NatanNed
 ---
 
 Thank you for visiting my repository! I appreciate your interest in my work and welcome any feedback you may have.
+
