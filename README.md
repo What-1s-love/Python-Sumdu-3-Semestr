@@ -38,8 +38,8 @@ Feel free to explore the code in this repository. Each project includes comments
 
 ## Contact Information
 
-- **Email**: [natan.nedaikhlib@gmail.com]
-- **GitHub Profile**: [github.com/NatanNed]
+- **Email**: natan.nedaikhlib@gmail.com
+- **GitHub Profile**: https://github.com/NatanNed
 
 ---
 
