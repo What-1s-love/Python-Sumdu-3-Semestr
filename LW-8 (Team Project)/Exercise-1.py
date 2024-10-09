@@ -54,3 +54,39 @@ add_student(
         "Програмування": 90
     }
 )
+
+# Шаповал Анастасія (Студентка 2) додала вивід словника про студентів та функцію сортування даних, 
+# а саме сортування студентів за оцінкою з конкретного предмета Математики.
+
+def print_students(students, title="Список студентів", show_grades=True):
+    """
+    Функція для виведення списку студентів з їхніми оцінками.
+    
+    :param students: список студентів
+    :param title: заголовок для виведення
+    :param show_grades: прапорець для виведення оцінок за кожний предмет (True)
+    """
+    print(f"\n{title}:")
+    for student in students:
+        if show_grades:
+            grades = ", ".join(f"{subject}: {grade}" for subject, grade in student['subjects_grades'].items())
+            print(f"{student['full_name']} (Курс {student['course']}): {grades}")
+
+def sort_students_by_subject(students, subject):
+    """
+    Функція для сортування студентів за оцінкою з конкретного предмета Математики.
+    
+    :param students: список студентів
+    :param subject: предмет, за яким потрібно виконати сортування
+    :return: відсортований список студентів
+    """
+    return sorted(students, key=lambda s: s['subjects_grades'].get(subject, 0), reverse=True)
+
+# Виведення студентів перед сортуванням
+print_students(students_performance['students'], "Список студентів перед сортуванням")
+
+# Використання функції для сортування за оцінкою з математики
+sorted_by_math = sort_students_by_subject(students_performance['students'], 'Математика')
+
+# Виведення відсортованих студентів з оцінками з математики
+print_students(sorted_by_math, "Список студентів після сортування за оцінкою з Математики", show_grades=True)
